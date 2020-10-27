@@ -71,7 +71,7 @@ var readFileAndMakeItFunnyAsync = (filePath) => {
     });
   });
 };
-var readFileAndMakeItFunnyAsync = Promise.promisify(readFileAndMakeItFunny);
+// var readFileAndMakeItFunnyAsync = Promise.promisify(readFileAndMakeItFunny);
 // console.log(readFileAndMakeItFunnyAsync);
 
 // Export these functions so we can test them and reuse them in later exercises
